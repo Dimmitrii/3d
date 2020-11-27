@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PROJECT 3D</title>
+	<style type="text/css">
+		body{
+			margin: 0 auto;
+			width: 930px;
+			height: 1117px;
+            color:white;
+            padding: 0 35px 0 35px;
+			/* font-f */
+		}
+        html{
+            background-image: url("back.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* h1{
+            text-align: center;
+        } */
+        nav{
+            height: 90px;
+            font-size: 18px;
+        }
+        section{
+            text-align: center;
+        }
+        article{
+            text-align: center;
+        }
+        ul{
+            width: 392px;
+            height: 90px;
+            list-style-type: none;
+            float: left;
+            padding: 0;
+            margin: 0 160px 0 0;
+			line-height: 108px;
+			letter-spacing: 1.2px;
+        }
+		ul li{
+			cursor: pointer;
+			float: left;
+		}
+        ul li:nth-child(1){
+            margin:  0 90px 0 0;
+        }
+		ul li:nth-child(2){
+			margin:0 77px 0 0;
+		}
+        ul li:nth-child(3){
+            margin: 0;
+        }
+        .logo{
+            float: left;
+            margin: 24px 186px 0 4px;
+        }
+        .login{
+            width: 130px;
+            height: 58px;
+            background-color: #F2F2F2;
+            border-radius: 15px;
+			margin:27px 0 0 0;
+			font-size: 18px;
+            /* float: right; */
+        }
+		.servises{
+			margin: 45px 0 0 0;
+			width: 930px;
+			height: 267px;
+			background-image: url("Rectangle 2.png");
+			padding:32px 0 0 0;
+			color: #000000;
+		}
+		.servises h1{
+			font-weight: normal;
+			letter-spacing: 1px;
+			font-weight: normal;
+			margin: 0 0 12px 0px;
+		}
+		.content{
+			width: 355px;
+			height: 70px;
+			margin: 42px auto 0 auto;
+		}
+		.content p {
+			margin: 0;
+		}
+		.prices{
+			margin: 72px 0 0 0;
+			height: 239px;
+		}
+		.prices h1{
+			width: 229px;
+			margin: 0 0 0 310px;
+			font-weight: normal;
+		}
+		.design-card{
+			float: left;
+		}
+		.program-card{
+			float: right;
+		}
+		.creating h2{
+			font-weight: normal;
+			font-size: 22px;
+			margin:  19px 0 41px 0;
+		}
+		.design-card div{
+			color: #000000;
+			text-align: left;
+			width: 348px;
+			height: 87px;
+			background-image: url("Rectangle 3.png");
+			padding: 38px 0 0 22px;
+			line-height: 22px;
+			letter-spacing: 0.8px;
+			
+		}
+		.program-card div{
+			color: #000000;
+			text-align: left;
+			width: 426px;
+			height: 99px;
+			background-image: url("Rectangle 4.png");
+			line-height: 22px;
+			letter-spacing: 0.8px;
+			padding: 26px 0 0 24px;
+		}
+		.prices h2{
+			font-weight: normal;
+			font-size: 15px;
+			letter-spacing: 1px;
+			margin: 29px 0 7px 0;
+		}
+		.card{
+			width: 215px;
+			height: 248px;
+			background-image: url("Rectangle 8.png");
+			float: left;
+			margin: 0 -3px 0 52px;
+			color:#000000;
+			padding: 0 0 0 25px;
+			text-align: left;
+			line-height: 20px;
+			/* letter-spacing: 0px; */
+		}
+		.card-descr{
+			text-align: left;
+			width: 200px;
+		}
+		.card button{
+			width: 136px;
+			height: 40px;
+			background-color: #30F880;
+			border-radius: 10px;
+			border: none;
+			margin: 16px 0 0 27px;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<div style="width:58px; height:50px"><img src="Mask Group.png"></div>
+			<div style="width: 58px; height: 20px; line-height: 20px; font-size: 14px;">OneTeam</div>
+		</div>
+		<ul>
+			<li>Главная</li>
+			<li>Контакты</li>
+			<li>Помощь</li>
+		</ul>
+		<button class="login">Войти</button>
+	</nav>
+	<article class="servises">
+		<h1>НАШИ УСЛУГИ</h1>
+		<p style="width: 345px; margin: 0 auto;">Приветствую всех посетителей данного сайта. Наша команда  предоставляем услуги такие как: </p>
+		<div class="content">
+			<div style="float: left;">
+				<div style="height: 49px;"><img src="graphic-design 1.png"></div>
+				<p>Веб-Дизайнинг</p>
+			</div>
+			<div style="float: right; width: 145px;">
+				<div style="height: 49px;"><img src="computer-worker-on-side-view 1.png"></div>
+				<p>Разработка сайта</p>
+			</div>
+		</div>
+	</article>
+	<section class="prices">
+		<h1>ЦЕНЫ НА УСЛУГИ</h1>
+		<div>
+			<div class="design-card">
+				<h2>ДИЗАЙН САЙТА</h2>
+				<div>Дизайн главной страницы сайта — 100$<br>Дизайн одной страницы сайта — 50$</div>
+			</div>
+			<div class="program-card">  
+				<h2>ПРОГРАММИСТ РАЗРАБОТЧИК</h2>
+				<div>Интеграция вёрстки в управления сайтом — 350$<br>Вёрстка веб-страницы — от 150$<br>  Пуско - наладочные — от 50$ </div>
+			</div>
+		</div>
+	</section>
+	<section class="creating">
+		<h2>СОЗДАНИЕ САЙТОВ</h2>
+		<div class="card">
+			<h3>Сайт визитка</h3>
+			<p class="card-descr">Простой, одностраничный сайт, содержащий в себе информацию о компании. </p>
+			<p>Стоимость — 200$</p>
+			<button>Заказать</button>
+		</div>
+		<div class="card">
+			<h3>Интернет-магазин</h3>
+			<p class="card-descr">Многостраничный сайтc описанием товара и его заказа </p>
+			<p>Стоимость — 500$</p>
+			<button>Заказать</button>
+		</div>
+		<div class="card">
+			<h3>Сайт компании</h3>
+			<p class="card-descr">Многостраничный сайт, рассказывающий подробнее об услугах компании.  </p>
+			<p>Стоимость — 550$</p>
+			<button>Заказать</button>
+		</div>
+	</section>
+</body>
+</html>  
